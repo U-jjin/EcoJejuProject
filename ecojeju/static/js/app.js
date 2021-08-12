@@ -2129,7 +2129,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
   'use strict';
 
   $(initTranslation);
-  var pathPrefix = 'server/i18n'; // folder of json files
+  var pathPrefix = './static/server/i18n'; // folder of json files
 
   var STORAGEKEY = 'jq-appLang';
   var savedLanguage = Storages.localStorage.get(STORAGEKEY);
@@ -2194,7 +2194,6 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
   'use strict';
 
   $(initNavbarSearch);
-
   function initNavbarSearch() {
     var navSearch = new navbarSearchInput(); // Open search input
 

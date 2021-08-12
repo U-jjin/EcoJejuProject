@@ -28,5 +28,6 @@ urlpatterns = [
     path('login', views.login, name="login"),
     path('recover',views.recover, name="recover"),
     path('register', views.register, name="register"),
+    path('registerimpl', views.registerimpl, name='registerimpl'),
 
 ]
